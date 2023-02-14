@@ -67,10 +67,6 @@ nav {
 
 /* homepage */
 
-* {
-    box-sizing: border-box;
-}
-
 
 .homepage {
     /* animation: 1s ease-out 0s 1 slideInLeft; */
@@ -198,13 +194,11 @@ h1 {
 /* collection */
 
 .collectionheading{
+    display: flex;
     font-size: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 200px;
+    
    
 }
 .collectionheading:hover{
@@ -212,41 +206,41 @@ h1 {
     text-shadow:2px 5px 4px #c0b743, 3px 5px 4px green;
 }
 
+
 .shivani{
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
 
 }
 
+
 .card {
     position: relative;
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(4, 4, 4, 0.5);
-    padding: 40px 60px;
+    padding: 30px 50px;
     background: white;
     cursor: pointer;
-    margin: 40px;
-    margin-top: 60px;
+    margin: 30px;
+    margin-top: 150px;
     transition: 0.3s;
 }
 
 .card:hover {
-    height: 300px;
-    width: 350px;
+    height: 250px;
     background: rgb(238, 167, 167);
 }
 
 video {
     position: absolute;
     width: 90%;
-    height: 90%;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 4px rgba(4, 4, 4, 0.5);
     transform: translateY(-100px);
     z-index: 99;
 }
@@ -261,7 +255,7 @@ video {
 
 .card:hover>.content {
     opacity: 1;
-    transform: translateY(80px);
+    transform: translateY(100px);
 }
 
 .content h1 {
@@ -274,18 +268,37 @@ video {
     color: green;
 }
 
+.btn a button{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background: linear-gradient( #280359, #ae0cae 80%);
+    border: rebeccapurple;
+    box-shadow:3px 4px 5px rgb(108, 105, 105) ;
+    cursor: pointer;
+   
+    
+}
+.btn a button:hover{
+    background: linear-gradient(#178f23, #1e9fb5 80%);
+    color: black;
+    
+}
+
 /* roadmap */
 
-body {
-    margin: 0;
+.afroj {
+    margin-top: 200px;
     background: #EEE;
     user-select: none;
     font-family: sans-serif;
+   
 }
 
-
 #slider {
-    
+   
     position: relative;
     width: 50%;
     height: 30vw;
@@ -316,10 +329,8 @@ input[type=radio]:checked {
     opacity: 1;
 }
 
-
-
-
 #slider label {
+  
     position: absolute;
     width: 100%;
     height: 100%;
