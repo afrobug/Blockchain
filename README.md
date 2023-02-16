@@ -5,6 +5,20 @@ What Is a Blockchain?
 
 A blockchain is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the fidelity and security of a record of data and generates trust without the need for a trusted third party.
 
+Purpose <<<
+
+Main use case is proof of ownership
+for example real estate which includes information such as:
+when the house was built
+multiple ownerships
+to the current owner
+
+this same principle applies to anything with substantial value
+
+Not just ownership its purpose expands to keeping track of the supply chain
+
+if applied to products groceries to the level where people can track what farm it came from
+
 History of Blockchain <<<
 by
 Shaily
@@ -81,7 +95,7 @@ Data storage limitations
 
 ---------------------------------------------------------parts contributed in project---------------------------------------------------------
 
-About
+Home
 by shaez
 
 cryptocurrency
