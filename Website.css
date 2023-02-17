@@ -236,19 +236,19 @@ h1 {
     background: rgb(238, 167, 167);
 }
 
-video {
+.videobox video {
     position: absolute;
     width: 350px;
     border-radius: 15px;
     box-shadow: 2px 5px 4px rgba(99, 98, 98, 0.5);
     transform: translateY(-100px);
-    z-index: 99;
+    z-index: 1;
 }
 
 .content {
     margin-top: 100px;
     text-align: center;
-    transform: translateY(-250px);
+    transform: translateY(-100px);
     opacity: 0;
     transition: 0.4s;
 }
