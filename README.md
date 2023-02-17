@@ -1,5 +1,6 @@
 Blockchain >>>
-Overview
+
+Overview  <<<
 
 What Is a Blockchain?
 
@@ -93,7 +94,7 @@ Regulation varies by jurisdiction and remains uncertain
 
 Data storage limitations
 
----------------------------------------------------------parts contributed in project---------------------------------------------------------
+---------------------------------------------------------parts contributed in project----------------------------------------------------
 
 Home
 by shaez
