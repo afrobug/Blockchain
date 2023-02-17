@@ -73,7 +73,6 @@ nav {
 /* homepage */
 
 .homepage {
-    /* animation: 1s ease-out 0s 1 slideInLeft; */
     margin: 0 auto;
     max-width: 80%;
     padding: 0;
@@ -86,7 +85,6 @@ nav {
     align-content: center;
     height: 500px;
     width: 100%;
-    /* flex: auto; */
 }
 
 .column-6 {
@@ -467,6 +465,10 @@ input[type=radio]:checked {
 
 .parag a {
     font-size: 23px;
+}
+
+.chain2 img{
+    width: 500px;
 }
 
 /*footer */
