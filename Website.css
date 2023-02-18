@@ -510,3 +510,29 @@ input[type=radio]:checked {
 .footer p {
     margin-bottom: 20px;
 }
+
+/* responsive */
+
+@media (min-width: 1200px) and (max-width: 1398px){
+    .header1{
+        margin-top: 20px !important;
+        margin-left: -90px;
+    }
+    
+    .img-2{
+        margin-left: 300px;
+        margin-top: -300px;
+    }
+
+    .nav-link{
+        margin-right: 30px !important;
+    }
+
+    .parag{
+        margin-left: 170px;
+    }
+
+    .afroj {
+        margin-top: 600px;
+    }
+}
