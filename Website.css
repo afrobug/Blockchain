@@ -294,40 +294,43 @@ h1 {
 .afroj {
     margin-top: 450px;
     user-select: none;
+    /* whether the text of an element can be selected */
     font-family: sans-serif;
-}
-
-.det {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 700;
 }
 
 #slider {
     position: relative;
     width: 50%;
     height: 30vw;
+    /* 30% of the viewport height */
     margin: 80px auto;
+    /* to make the slide horizontally centered */
     font-family: 'Helvetica Neue', sans-serif;
     perspective: 1400px;
+    /* gives an element a 3D space by affecting the distance between the z-plane and the user */
     transform-style: preserve-3d;
 }
 
+/* radio buttons to act like navigation sliders */
 input[type=radio] {
     position: relative;
     top: 108%;
     left: 50%;
+    /* center the radio buttons below slider */
     width: 18px;
     height: 18px;
     margin: 0 15px 0 0;
     opacity: 0.4;
+    /* applied to all the radio buttons */
     transform: translateX(-83px);
+    /* The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis) */
     cursor: pointer;
 }
 
 
 input[type=radio]:nth-child(5) {
     margin-right: 0px;
+    /* removing margin on the last radio button */
 }
 
 input[type=radio]:checked {
@@ -346,6 +349,7 @@ input[type=radio]:checked {
     border-radius: 5px;
     cursor: pointer;
     display: flex;
+    /* the property of flex container to use flexbox */
     align-items: center;
     justify-content: center;
     transition: transform 400ms ease;
@@ -389,6 +393,8 @@ input[type=radio]:checked {
 
 /* Slider Functionality */
 
+/* general-sibling selector(~) - selects all elements that are siblings of a specified element */
+
 /* Active Slide */
 #s1:checked~#slide1,
 #s2:checked~#slide2,
@@ -397,6 +403,7 @@ input[type=radio]:checked {
 #s5:checked~#slide5 {
     box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
     transform: translate3d(0%, 0, 0px);
+    /* Defines a 3D translation (0px z-plane)*/
 }
 
 /* Next Slide */
@@ -467,8 +474,14 @@ input[type=radio]:checked {
     font-size: 23px;
 }
 
-.chain2 img{
+.chain2 img {
     width: 500px;
+}
+
+.det {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
 }
 
 /*footer */
