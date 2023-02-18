@@ -95,6 +95,7 @@ Regulation varies by jurisdiction and remains uncertain
 Data storage limitations
 
 ---------------------------------------------------------parts contributed in project----------------------------------------------------
+Newton Id to be added
 
 Home
 by shaez
@@ -107,3 +108,5 @@ by Afroj
 
 Footer
 by shaily
+
+----------------------------------------------------------Developed by Code Crafters-----------------------------------------------------
