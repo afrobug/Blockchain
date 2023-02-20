@@ -204,7 +204,7 @@ h1 {
 }
 
 
-.shivani {
+.Maincard {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -291,7 +291,7 @@ h1 {
 
 /* resources */
 
-.afroj {
+.Mainslider {
     margin-top: 450px;
     user-select: none;
     /* whether the text of an element can be selected */
@@ -474,11 +474,11 @@ input[type=radio]:checked {
     font-size: 23px;
 }
 
-.chain2 img {
+.gifchain img {
     width: 500px;
 }
 
-.det {
+.summary {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
