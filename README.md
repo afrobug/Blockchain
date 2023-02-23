@@ -114,7 +114,6 @@ Regulation varies by jurisdiction and remains uncertain
 Data storage limitations
 
 ---------------------------------------------------------parts contributed in project----------------------------------------------------
-Newton Id to be added
 
 Home
 by shaez
