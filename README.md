@@ -1,5 +1,8 @@
 Blockchain >>>
 
+Netlify hosted link:
+https://blockchaintechnology.netlify.app/
+
 Overview  <<<
 
 What Is a Blockchain?
@@ -27,6 +30,22 @@ Shaily
 Blockchain isn’t just a database, it’s a new technology stack with ‘digital trust’ that is revolutionizing the way we exchange value and information across the internet, by taking out the ‘gatekeepers’ from the process.
 
 Blockchain history goes back farther than you might imagine, but we’ve condensed it by answering four critical questions:
+
+Who Invented Blockchain?
+The first blockchain-like protocol was proposed by cryptographer David Chaum in 1982. Later in 1991, Stuart Haber and W. Scott Stornetta wrote about their work on Consortiums.
+
+But it was Satoshi Nakamoto (presumed pseudonym for a person or group of people) who invented and implemented the first blockchain network after deploying the world’s first digital currency, Bitcoin.
+
+Cryptography is a deep and fascinating discipline with a history that goes back further than blockchain. For a richer understanding of  how cryptography helps blockchain technology, check out: Why Cryptography Makes Blockchain Unstoppable
+
+Who Owns Blockchain Technology?
+Because blockchain technology is the technology behind the blockchain, it cannot be owned. It’s like the internet. But anyone can use the technology to run and own their own blockchains.
+
+Who Founded Bitcoin?
+Satoshi Nakamoto.
+
+Who Sent and Received the First Bitcoin Transaction?
+Nakamoto sent ten bitcoins to Hal Finney, who built the first reusable proof-of-work system in 2004.
 
 How Does a Blockchain Work? <<<
 by
@@ -95,6 +114,7 @@ Regulation varies by jurisdiction and remains uncertain
 Data storage limitations
 
 ---------------------------------------------------------parts contributed in project----------------------------------------------------
+Newton Id to be added
 
 Home
 by shaez
@@ -107,3 +127,5 @@ by Afroj
 
 Footer
 by shaily
+
+----------------------------------------------------------Developed by Code Crafters-----------------------------------------------------
