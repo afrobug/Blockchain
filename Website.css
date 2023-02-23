@@ -577,51 +577,60 @@ input[type=radio]:checked {
     display: none;
   
 }
-#resources{
-    margin-top: 600px;
-}
 }
 
 @media(min-width: 375px) and (max-width: 800px) {
 
-    .header img {
-        margin-left: 10px;
+    nav img{
+        margin-left: 1px;
     }
 
-    .nav img{
-        margin-bottom: 380px;
+    .nav-link{
+        margin-left: 160px;
+        margin-top: 50px;
+    }
+    .header1{
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+    }
+    .header1 h1{
+        font-size: 50px;
     }
 
-    .nav-link ul{
-        margin-bottom: 317px;
+    .img-1{
+        margin-left: 200px;
+        margin-top: 180px;
     }
-
-    .nav-link {
+    .img-2{
+        display: none;
+    }
+    .parag{
+        margin-top: 150px;
+        width: 500px;
+        margin-left: 70px;
+    }
+    .cryptoheading{
+        margin-left: 40px;
+    }
+    .Maincard{
         margin-left: 150px;
     }
-
-    .header1 h1 {
-        margin-top: 10px;
+    .btn{
+        margin-left: 150px;
     }
-
-    .img-1 {
-        margin-top: 200px;
-        margin-left: 220px;
+    .below{
+        margin-top: 2400px;
     }
-
-    .img-2 {
-        margin-left: 280px;
-        margin-bottom: 200px;
+    .Mainslider{
+        display: none;
     }
-
-
-
-    .homepage h1{
-
+    .summary{
+        margin-left: 90px;
+        width: 500px;
     }
-
-
-    .parag {}
-
-    .card {}
+    .footer{
+        margin-left: 70px;
+        width: 500px;
+    }
 }
