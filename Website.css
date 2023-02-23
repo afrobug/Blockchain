@@ -532,7 +532,12 @@ input[type=radio]:checked {
         margin-left: 170px;
     }
 
+    .below{
+        margin-top: 300px
+    }
+
     .Mainslider {
+        display: none;
         margin-top: 100px;
     }
 }
