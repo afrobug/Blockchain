@@ -532,7 +532,7 @@ input[type=radio]:checked {
         margin-left: 170px;
     }
 
-    .afroj {
+    .Mainslider{
         margin-top: 600px;
     }
 }
@@ -568,7 +568,13 @@ input[type=radio]:checked {
     margin-top: 200px;
     margin-left: 150px;
 }
+.card{
+   align-items: center !important;
+   justify-content: center;
+}
+.Mainslider{
 
+}
 #resources{
     margin-top: 600px;
 }
