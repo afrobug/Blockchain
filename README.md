@@ -1,7 +1,7 @@
 Blockchain >>>
 
 Netlify hosted link:
-https://blockchaintechnology.netlify.app/
+https://blockchain-technology.netlify.app/
 
 Overview  <<<
 
