@@ -19,6 +19,7 @@ nav img {
 nav h1 {
     color: rgb(0 102 255);
     font-size: 40px;
+    margin-left: -300px;
     letter-spacing: 2px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -35,7 +36,6 @@ nav {
 }
 
 .nav-link {
-    flex: 1;
     text-align: right;
     margin-right: 150px;
 }
@@ -57,6 +57,7 @@ nav {
 
 .nav-link ul li::after {
     content: '';
+    /* content: '': This creates an empty content box for the pseudo-element. */
     width: 0;
     height: 5px;
     background: #fcba6f;
@@ -486,7 +487,7 @@ input[type=radio]:checked {
         margin-left: 170px;
     }
 
-    .below{
+    .below {
         margin-top: 300px
     }
 
@@ -496,20 +497,20 @@ input[type=radio]:checked {
     }
 }
 
-@media(min-width: 800px) and (max-width: 1200px){
- .header1 h1{
-    margin-top: 100px;
-    margin-left: 20px;
- }
+@media(min-width: 800px) and (max-width: 1200px) {
+    .header1 h1 {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
 
- .header1 h3{
-    margin-top: 20px;
-    margin-left: 20px;
- }
+    .header1 h3 {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
- .header1 .button{
-    margin-left: 20px;
- }
+    .header1 .button {
+        margin-left: 20px;
+    }
 
     .img-1 {
         margin-left: 120px;
@@ -520,75 +521,88 @@ input[type=radio]:checked {
         margin-top: -100px;
     }
 
-.nav-link{
-    margin-left: 200px ;
-}
-.parag{
-    margin-top: 200px;
-    margin-left: 100px;
-}
-.Maincard{
-    height: 3000px;
-    margin-bottom: 300px;
-}
+    .nav-link {
+        margin-left: 200px;
+    }
 
-.Mainslider{
-    display: none;
-  
-}
+    .parag {
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .Maincard {
+        height: 3000px;
+        margin-bottom: 300px;
+    }
+
+    .Mainslider {
+        display: none;
+
+    }
 }
 
 @media(min-width: 375px) and (max-width: 800px) {
 
-    nav img{
+    nav img {
         margin-left: 1px;
     }
 
-    .nav-link{
+    .nav-link {
         margin-left: 160px;
         margin-top: 50px;
     }
-    .header1{
+
+    .header1 {
         margin: 0;
         padding: 0;
         margin-top: 100px;
     }
-    .header1 h1{
+
+    .header1 h1 {
         font-size: 50px;
     }
 
-    .img-1{
+    .img-1 {
         margin-left: 200px;
         margin-top: 180px;
     }
-    .img-2{
+
+    .img-2 {
         display: none;
     }
-    .parag{
+
+    .parag {
         margin-top: 150px;
         width: 500px;
         margin-left: 70px;
     }
-    .cryptoheading{
+
+    .cryptoheading {
         margin-left: 40px;
     }
-    .Maincard{
+
+    .Maincard {
         margin-left: 150px;
     }
-    .btn{
+
+    .btn {
         margin-left: 150px;
     }
-    .below{
+
+    .below {
         margin-top: 2400px;
     }
-    .Mainslider{
+
+    .Mainslider {
         display: none;
     }
-    .summary{
+
+    .summary {
         margin-left: 90px;
         width: 500px;
     }
-    .footer{
+
+    .footer {
         margin-left: 70px;
         width: 500px;
     }
