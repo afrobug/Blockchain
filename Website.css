@@ -194,19 +194,23 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
     font-weight: 900;
-    line-height: 1.2;
+   
 }
 
 
 .cryptoheading:hover {
     cursor: pointer;
+    /* offset-x | offset-y | blur-radius */
     text-shadow: 5px 4px 4px rgb(33, 70, 155);
 }
 
 
 .Maincard {
+    /* 1vh is equals to 1% */
     height: 100vh;
+    /* sets the flexible length on flexible items */
     display: flex;
+    /* to set items in one line or multiple lines */
     flex-wrap: wrap;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -214,6 +218,7 @@ h1 {
 
 
 .card {
+    /* element positioned relative to its nrml/original position */
     position: relative;
     width: 250px;
     height: 250px;
@@ -235,22 +240,26 @@ h1 {
 }
 
 .videobox video {
+    /* it means parent position if parent is not then, body is taken as parent */
     position: absolute;
     width: 350px;
     border-radius: 15px;
     box-shadow: 2px 5px 4px rgba(99, 98, 98, 0.5);
+    /* reposition an element vertically  */
     transform: translateY(-100px);
-    z-index: 1;
+    /* controls the stacking order of overlapping element */
+     z-index: 1;
 }
 
 .content {
     margin-top: 100px;
     text-align: center;
-    transform: translateY(-100px);
+    transform: translateY(-50px);
     /* opacity: 0; */
     transition: 0.4s;
 }
 
+  /* child selector (>) */
 .card:hover>.content {
     opacity: 1;
     transform: translateY(130px);
@@ -392,7 +401,6 @@ input[type=radio]:checked {
 
 
 /* Slider Functionality */
-
 /* general-sibling selector(~) - selects all elements that are siblings of a specified element */
 
 /* Active Slide */
